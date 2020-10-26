@@ -7,949 +7,682 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 *, *:before, *:after {box-sizing: inherit}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:62.5%;
+    
+}
+
 body{
-    line-height: 2em;
-    margin:0.5em;
-}
-.button{
-    margin:auto;
-}
-header{
-   
-}
-header img{
-    width:98vw;
-    height:100vh;
- 
-}
-
-nav{
-    margin-bottom: -35px;
-}
-
-nav img{
-    width: 400px;
-    height: 85px;
-    padding-left: 50px;
-    padding-top: 15px;
-}
-
-.top_nav{
-    display: flex;
-    flex-direction: row;
-    color: #4A455C;
-    justify-content: space-between;
-    padding: 5px 0px;
-    min-height: 15vh;
-    width: 400px;
-    padding-left: 435px;
-    margin-top: -67px;
-    
-    justify-content: space-between;
-    /* padding:5px 0px;
-    min-height:15vh; */
-    
-  }
-
-}
-nav ul{
-  display:flex;
-  flex-direction: row; 
- 
-
+    font-family: 'Pacifico',sans-serif;
+    color:#ffff;
 }
 ul{
     list-style: none;
 }
- li a{ 
-     
-    color:#4A455C;
+a{
+    text-decoration: none;
+    color:inherit;
+
+}
+img{
+    width:100%;  
+    height:auto;
+    display:block;
+}
+figure{
+    margin:0;
+}
+h1{
+    margin:0;
+}
+h2{
+    margin:0;
+}
+p{  color:black;
+    font-family: 'Catamaran';
+    font-size: 2rem;
+}
+button{
+    min-width:145px;
+    min-height:45px;
+    background-color:black;
+    font-family: 'Catamaran';
+    color: orange;
+    font-size:18px;
+}
+
+.wrapper{
     
-    font-family: 'Montserrat';
-    padding: 0 20px;
-font-size: 24px;
-font-weight: 600;
-
+    width: 100%;
+    margin: 0 auto;
 }
-a{text-decoration: none;}
-
-
-
-.TechChallenge {
-    color: white;
-    background-color: #D64C31 ;
-    font-size:  55px ;
-    font-family: 'Cormorant-Garamond';
-    font-weight: 500;
-    width: 66vw;
-    margin-left:492px ;
-    margin-top: -240px;
-    position: relative;
-
+/* header styles */
+header{
+    background-image: url(./assets/image-1.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    padding: 0px 0;
 }
 
-
-.TechChallenge h1{
-    font-family: 'Cormorant Garamond';
-    font-size: 115px;
-    font-weight: lighter ;
-    background-color: #D64C31 ;
-    padding-left: 52px;
-    margin-bottom: -50px;
-    padding-top:80px;
-    
-}
-.TechChallenge p{
-    font-size: 20px;
-    padding: 55px;
-        padding-top: 55px;
-        padding-bottom: 55px;
-    width: 950px;
-    line-height: 40px;
-    padding-bottom: 64px;
-    padding-top: 85px;
-    max-height: 240px;
-
-}
-
-.Blog h2{
-    font-size:110px;
-    padding-left: 50px;
-    font-family: 'Cormorant Garamond';
-}
-.gallery-container{
-    background-color:white;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* max-width: 1000px; */
-    max-height:855px;
-    padding:55px;
-   
-}
-.gallery-container aside{
-width:444px;
-
-}
-
-.gallery-item{
-
-    background-color: #4A455C;
-    /* width:calc((100% / 3)); */
-    width: calc((100% / 3) - 20px);
-    /* max-width: 33vw; */
-    margin-right:10px;
-    height:800px;
-    
-}
-.gallery-item img{
-    
-    min-width: 29vw;
-    min-height:334.5px;
-/* padding: 0px 35px 0px 20px; */
-}
-.gallery-item h3, h4,p{
-    color: white;
-padding-left: 30px;
-font-family: 'Montserrat';
-width: 380px;
-}
-.gallery-item h3{
-    font-size: 22px;
+h1{ font-style: 'Pacifico';
+    color:orange;
+    margin:0;
     font-weight: 400;
-
-
-}
-.gallery-item h4{
-    font-size: 45px;
-    font-weight: 500;
-    margin-top: 20px;
-
-}
-.gallery-item p{
-
-    font-size: 20px;
-    font-weight:400;
-    margin-top: -25px;
-
-}
-
-.gallery-item button.Read1{
-    color:white;
-    background-color:#D64C31 ;
-    font-family:'Montserrat';
-    font-size: 22px;
-    font-weight: 500;
-    margin-left: 20px;
-    width: 180px;
-    height: 55px;
-    border:none;
-}
-
-.gallery-item2{width: 95vw;
-                height:105vh;
-                margin-left:50px;
-            }
-
-.gallery-cont2{
-    /* float:left; */
-    background-color: #4A455C;
-    max-width:920px;
-    margin-top:70px;
-    min-height: 800px;
-}
-.gallery-cont2 img{
-    width:920px;
-}
-.gallery-cont2 h3{
-    font-family: 'Montserrat';
-    color:white;
-    padding-left: 30px;
-    font-size: 22px;
-    font-weight: 400;    
-}
-.gallery-cont2 h4{
-    font-size: 45px;
-    font-weight: 500;
-    margin-top: 20px;
-
-}
-.gallery-cont2 p{
-    font-size: 20px;
-    font-weight:400;
-    margin-top: -25px;
-    width:920px;
-}
-.gallery-cont2 button.Read1{
-    color: white;
-    background-color: #D64C31;
-    font-family: 'Montserrat';
-    font-size: 22px;
-    font-weight: 500;
-    margin-left: 30px;
-    width: 180px;
-    height: 55px;
-    border: none;
-}
-  
-
-
-aside .gallery-item{
-    background-color: #7C7D98;
-    min-height: 1145px;
-    min-width: 446px;
-}    
-.blog-item aside img{
-
-}
-h2 h3 h4{
-color:white;}
-
-aside .gallery-item h3{
-    color:white;
-    font-size: 45px;
-    font-weight: 500;
-    padding-left:30px;
-}
-aside p{
+    font-size: 7rem;
+    float:left;
     width:400px;
-    padding-left:30px;
-}
-
-
-
-
-
-
-/* Related Posts */
-.Related-Posts{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #FFF0E7;
-    padding-left:20px;
-    margin-top: 100px;
-}
-.Related-Posts h2{
-    font-family: 'Cormorant Garamond';
-    font-size: 110px;
-    padding-left: 25px;
-}
-
-
-
-.Relpost-container{
+    position: center;
+} 
+header nav{
     
-    display: flex;
-    flex-direction: row;
-    
-    padding-top: 40px;
-    padding-right: 15px;
-    padding-left: 30px;
-    padding-bottom: 100px;
-    }
-
-
-
-.Relpost-item{
-    background-color: white;
-    /* width: calc((100% / 3) - 20px); */
-}
-.relpics{
-        /* position: relative; 
-        width:calc((100% / 3) - 20px); 
-        max-width:250px;
-        max-height: 250px; */
-        background-color: white;
-        min-height: 1000px;
-        
-        /* margin-left: 30px; */
-        margin-right: 30px;
-        
-        
-}
-.relpics img{
-    width: calc((100% / 1) - -1px);
-    
-}
-
-.relpics h3{
-    color:#4A455C;
-    font-family: 'Montserrat';
-    font-size:22px;
-    
-    padding-left:30px;
-
-}
-.relpics h4{
-    color:#D64C31;
-    font-family: 'Montserrat';
-    font-size: 45px;
-    font-weight: 500;
-}
-.relpics p{
-    color:#4A455C;
-    font-family: 'Montserrat';
-    width:450px;
-    font-size:20px;
-    padding-right: 10px;
-    font-weight: 600;
-}
-.relpics button{
-    color:#4A455C; ;
-    background-color:white ;
-    font-family:'Montserrat';
-    border: 2px #D64C31;
-    border-style: solid;
-    margin-left:20px;
-    font-size:22px;
-    font-weight:500;
-    padding:10px;
-}
-
-.bottomnav{
-    background-color:#D64C31;
-    height:435px;
-        /* display:flex;
-        flex-direction:row;
-        
-        justify-content: space-between;} */
-
-}
-.bottomnav img{
-width: 241px;
-height: 75px;
-padding-left: 50px;
-margin-top: 27px;
-}
-.bottomnav h5{
     color:white;
-    font-family: 'Montserrat';
-    font-size: 45px;
-    font-weight: 500;
-    padding-left: 50px;
-    margin-top: 15px;
-}
-    
-
-.bottomnav p{
-    color:white;
-    font-family: 'Montserrat';
-    font-size: 20px;
-    font-weight: 400 ;
-    width:600px;
-    padding-left:50px;
-    margin-top:20px;
-}
-.bottbutt
- {display:flex;
-    flex-direction:row; 
-    justify-content: space-between;}
-
-    
-.bottbutt ul li a{
-        color:white;
-        display:flex;
-        flex-direction:row;
-        justify-content: space-between;
-        font-family: 'Montserrat';
-        font-size: 22px;
-        font-weight: 500;
-        padding-right: 2px;
-        margin-right: 436px;
-        margin-left: -475px;
-        margin-top: 66px;
-    }
-  
-
-.bottbutt li,h6,p{ 
-    color: white;
-
-font-family: 'Montserrat';
-width: 590px;
-font-size: 20px;
-padding-left: 30px;
-}
-.bottbutt p{
-    padding-left: 30px;
-    margin-top:20px;
+    float:right; 
 }
 
-
-.newsletter{color: white;
-    font-family: 'Montserrat';
-    font-size: 30px;
-    padding-left: 57px;
-    font-weight: 900;
-    margin-top: 85px;
-    margin-bottom: -17px;     
-            }
-
-.Subs label{
-    padding-left:127px;
-    font-family: 'Montserrat';
-    font-size:22px;
-    font-weight: 500;
-}
-.Subs input{
-font-family: 'Montserrat';
-font-size: 22px;
-font-weight: 500;
-border-radius: 0.2rem;
-min-width: 435px;
-margin-left: 54px;
-min-height: 60px;
-
-}
-.Subs button.pinksub{
-    color: #4A455C;
-background-color: peachpuff;
-border-radius: 0.25rem;
-font-family: 'Montserrat';
-font-size: 20px;
-padding: 13px 20px;
-font-weight: bolder;
-margin-left: 57px;
-margin-top: 15px;
-
-
-}
-.Subs p{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 455px;
-    padding-left: 50px;
-}
-.Subs p.logos{
-    font-size: 40px;
-    padding-left: 45px;
-    padding-right: 110px;
+header nav i.fas{
+    display:none;
 }
 
-.Info{
-    background-color: #4A455C;
-    width: 560px;
-    position: absolute;
-    margin-left: 900px;
-    margin-top: -53px;
-    border-top: 300px;
-    height: 487px;
-}
-   
-}
-.button .pinksub { color:#4A455C;
-    background-color:peachpuff;
+.headerNavMob{display:none;
+
 }
 
+header h1{    color: orange;
+    font-weight: 400;
+    font-size: 125px;
+     
+    width: 328px;
+    margin-right: 685px;
+    margin-top: 140px;
+}
 
-.bot_nav{
-    display: flex;
-    flex-direction: row;
-    color: #4A455C;
-    justify-content: space-between;
-    padding: 5px 0px;
-    min-height: 15vh;
-    width: 400px;
-    padding-left: 455px;
-    margin-top: -80px;
-    
-    justify-content: space-between;}
+header li{
+    display: inline-block;
+    margin:15px 10px;
+}
 
-    .bot_nav li{
-        padding-left: 50px;
-        margin-bottom: -15px;
-
-    }
-    .bot_nav p{
-        margin-top: -20px;
-    }
-
-.footer p{
-    color:white;
-    position: left;
-    margin-right: 700px;
+header a{
+     font-family: 'Catamaran';
+    font-size:2.0rem;
+    padding: 15px 30px;
+      font: white;
     font-weight:700;
 }
 
-/* Portrait tablet and small desktops */
-    @media (max-width: 940px) {
+header a:hover,
+header a:focus{
+    border:3px solid #ffffff;
+}
+h1 p{float:left;
+
+}
+.logos{ max-width:30px;
+        color:orange;
+        float:right;
+        margin-top:-115px;
+    }
+/* About Us */
+
+  
+
+  }
+  
+.AboutUs p{
+       max-width:48vw;
+       float:left;
+   }  
+
+.AboutUsImg img{ 
+      width: 50vw;
+      height:70vh;
+      }
+.AboutUsDesc{ 
+    margin: 150px 0px 58px 98px;
+    padding-left: 88px;
+    padding-right: 190px;
+}
+.AboutUsDesc h2{  
+    color:black;
+    font-family:'Pacifico';
+    font-size:35px;
+
+  }
+
+.AboutUsDesc p{
+    font-size:1.8rem;
+    width: 375px;
+}
+.AboutUsDesc button{
+    font-family:'Catamaran';
+    padding: 5px 0 5px 0;
+margin-top:25px;
+font-weight:700;
+font-size:16px;
+}
+.AboutUsImg, .AboutUsDesc {
+    float: left;
+    width: calc(50) 
+}
+    
+/* Our Mission */
+.Mission{
+    margin-top:58px;
+}
+h2{
+    color:black;
+    font-family:'Pacifico';
+    font-size:50px;
+
+  }
+
+
+  .Mission h2{
+       color:black;
+    font-family:'Pacifico';
+    font-size:50px;
+
+  }
+  .Mission img{ 
+      width: 50vw;
+      height:70vh;
+      float:left;
+      margin-top:-150px;
+  }
+   .Mission p{
+       max-width:48vw;
+       float:right;
+   }
 
     
-    
-    nav img{
-        max-width: 280px;
-        max-height: 90px;
-    }
-    header img {
-        width: 98vw;
-        height: 55vh;
-        margin-top: -15px;
-    }
-    .TechChallenge {
-        color: white;
-        background-color: #D64C31;
-        font-size: 55px;
-        font-family: 'Cormorant-Garamond';
-        font-weight: 500;
-        width: 98vw;
-        margin-left: 0px;
-        margin-top: -296px;
-        position: relative;
-    }
-    .gallery-container {
-        background-color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 468px;
-        max-height: 850px;
-        padding: 0px;
-    }
-    
-    .gallery-item {
-        background-color: #4A455C;
-        min-width: 271px;
-        margin-right: 11px;
-        height: 800px;
-    }
-    .gallery-item img {
-        max-width: 291px;
-        min-height: 325.5px;
-        padding: 0px 35px 0px 20px;
-    }
 
-    .gallery-item img {
-        max-width: 193px;
-        min-height: 325.5px;}
+.MissionImg img{ 
+      width: 49vw;
+      height:70vh;
+      }
+.MissionDesc{ 
+    margin: 150px 0px 58px 98px;
+    padding-left: 88px;
+    padding-right: 190px;
+}
+.MissionDesc h2{  
+   color: black;
+font-family: 'Pacifico';
+font-size: 35px;
+margin-right: 111px;
+float: right;
+  }
 
-    .gallery-item p {
-        font-size: 20px;
-        font-weight: 400;
-        margin-top: -25px;
-    }
-
-    .gallery-item h4 {
-        font-size: 45px;
-        font-weight: 500;
-        margin-top: 20px;
-    }
-    .gallery-item h3, h4, p {
-        color: white;
-        padding-left: 12px;
-        font-family: 'Montserrat';
-        width: 286px;
-    }
-    .bottbutt li, h6, p {
-        color: white;
-        font-family: 'Montserrat';
-        width: 282px;
-         
-    }
-    .gallery-item h3, h4, p {
-         
-        padding-left: 12px;
-        font-family: 'Montserrat';
-        width: 286px;
-    }
-    aside .gallery-item {
-        background-color: #7C7D98;
-        min-height: 1052px;
-        min-width: 359px;
-    }
-    .gallery-item p {
-        font-size: 20px;
-        font-weight: 400;
-        margin-top: -25px;
-        width:350px;
-        padding-left:2px;
-    }
-
-    .gallery-cont2 {
-        float: left;
-        background-color: #4A455C;
-        max-width: 825px;
-        margin-top: 202px;
-        min-height: 800px;
-    }
+.MissionDesc p{
+    font-size:1.8rem;
+    width: 375px;
+}
+.MissionDesc button{
+        font-family: 'Catamaran';
+    padding: 5px 0 5px 0;
+    margin-top: 145px;
+    font-weight: 700;
+    font-size: 16px;
+    float: right;
+    margin-right: -235px;
+}
+.MissionImg, .MissionUsDesc {
+    float: left;
+    width: calc(50) 
+}
 
 
-    .gallery-cont2 img {
-        width: 825px;
-        margin-top: 210px;
-    }
-    .gallery-cont2 img {
-        width: 825px;
-        margin-top: 0px;
-    }
-    .gallery-cont2 p {
-        font-size: 20px;
-        font-weight: 400;
-        margin-top: -25px;
-        width: 830px;
-    }
-    .Related-Posts {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #FFF0E7;
-        padding-left: 20px;
-        margin-top: 100px;
-        max-width: 925px;
-    }
-    .relpics {
-        
-        background-color: white;
-        min-height: 1000px;
-        margin-left: -9px;
-        margin-right: 35px;
-        max-width: 265px;
-    }
-    .Related-Posts {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #FFF0E7;
-        padding-left: 0px;
-        margin-top: 62px;
-        max-width: 925px;
-    }
-    .Relpost-container {
-        display: flex;
-        flex-direction: row;
-        padding-top: 40px;
-        padding-right: 0px;
-        padding-left: 50px;
-        padding-bottom: 100px;
-    }
-    .relpics p {
-        color: #4A455C;
-        font-family: 'Montserrat';
-        max-width: 300px;
-        font-size: 20px;
-        padding-right: 10px;
-        font-weight: 600;
-    }
-    .Info {
-        background-color: #4A455C;
-        max-width: 342px;
-        position: absolute;
-        margin-left: 580px;
-        margin-top: -53px;
-        border-top: 300px;
-        height: 470px;
-    }
-    .Subs input {
-        font-family: 'Montserrat';
-        font-size: 22px;
-        font-weight: 500;
-        border-radius: 0.2rem;
-        max-width: 280px;
-        margin-left: 54px;
-        min-height: 60px;
-    }
-    .Subs p.logos {
-        font-size: 35px;
-        padding-left: 45px;
-        padding-right: 110px;
-        margin-bottom: -75px;
-    }
-    
-    .Subs p {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 292px;
-        padding-left: 57px;
-        height: 73px;
-        padding-bottom: 87px;
-    }
-    .footer p{
-        margin-top:-60px;
-    }
-    
+/* Meet */
+.Meet{
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+.MeetImg {
+    padding: 23px 40px 0 0;
+    float:left;
+
+}
+ 
+.Meet img{    
+    max-height: 80%;
+    max-width: 30%;
+    display: block;
+    margin-left: 165px;
+}
+.MeetDesc{
+    float:left;
+     
+    margin: 11px 0 0 40px;
+}
+.MeetDesc h2{    color: black;
+    font-family: 'Pacifico';
+    font-size: 35px;
+    float: left;
+    margin-top: -340px;
+    margin-left: 505px;
+}
+ 
+
+.MeetDesc p{
+     
+    color: black;
+font-family: 'Catamaran';
+font-size: 2rem;
+float: right;
+width: 50%;
+margin-right: 230px;
+margin-top: -260px;
+}
+.MeetDesc button.Read{
+        min-width: 145px;
+    min-height: 45px;
+    background-color: black;
+    font-family: 'Catamaran';
+    color: orange;
+    font-size: 18px;
+    float: right;
+    margin-right: 826px;
+    margin-bottom: 40px;
+    margin-top: -55px;
+}
+  
+
+ 
+
+
+/* Contacts */
+
+.contact{
+background-image:url(./assets/image-5.jpg);
+    width: 300px ;
+    min-height: 100vh;
+    min-width:98.8vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    padding: 0px 0; 
 }  
+.contact.Links.stuff{
+    float:right;
 
-/* Landscape phone to portrait tablet */
 
-    @media (max-width: 768px) {
-    
-   
-    
-        .top_nav {
-            display: flex;
-            flex-direction: row;
-            color: #4A455C;
-            min-height: 10vh;
-            width: 400px;
-            margin-top: -20px;
-            justify-content: space-between;
-            padding-left:235px:
-        }
-        li a {
-            color: #4A455C;
-            font-family: 'Montserrat';
-            padding: 0px 2px;
-            font-size: 144px;
-            font-weight: 600;
-            margin-right: 3px;
-        }
-    
-    
-    .TechChallenge {
+}
+.contact p{
+     
+    margin-left: 560px;
+    float: left;
+    margin-top: 299px;
+    text-align: center;
+}
+ 
+ 
+ .contact ul li a{
+    font-family: 'Catamaran';
+    font-size: 30px;
+    color:orange;
+    float:left;
+    text-align:center;
+
+}
+ .contact p i{
+     color:white;
+     width:100px;
+     height:100px;
+     float:center;
+     font-size:50px;
+ }
+
+ .contact.stuff{
+     width:300px;
+     float:center;
+     text-align:center;
+ }
+ 
+ .stuff nav ul li a{
+     margin-right: 20px;
+    margin-top: 386px;
+ }
+
+
+ /* The Gram */
+.gallery.TheG{
+    float:left;
+    width: 100%;
+
+}
+.Gram .gallery img{
+            float: left;
+    width: 30%;
+    padding-left: 90px;
+} 
+ 
+ 
+.Gram h2{
+    color: black;
+    font-family: 'Pacifico';
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    margin: 65px;
+        margin-left: 65px;
+    margin-left: 680px;
+}
+ 
+.wrapper.clearfix .TheG {
+  float: left;
+  width: 100%;
+  margin-bottom: 80px;
+  padding-left: 66px;
+  
+}
+
+.clearfix::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+
+
+
+
+/* Info */
+
+.Info{
+        background-color: #4a4a4a;
+        float:left;
+        width:98.8vw;
+    }
+
+
+
+.Info ul li{
+     display: inline-block;
+   margin: 51px 145px;
+}
+ 
+.Info ul li a{
         color: white;
-        background-color: #D64C31;
-        font-size: 55px;
-        font-family: 'Cormorant-Garamond';
-        font-weight: 500;
-        width: 66vw;
-        margin-left: 244px;
-        margin-top: -247px;
-        position: relative;
-    }
-    .TechChallenge h1 {
-        font-family: 'Cormorant Garamond';
-        font-size: 67px;
-        font-weight: lighter;
-        background-color: #D64C31;
-        padding-left: 52px;
-        margin-bottom: -50px;
-        padding-top: 80px;
-    }
-    .TechChallenge p {
-        width: 550px;
-    }
-    .TechChallenge p {
-        font-size: 14px;}
-    li a {
-        color: #4A455C;
-        font-family: 'Montserrat';
-        padding: 0px 2px;
-        font-size: 14px;
-        font-weight: 600;
-        margin-right: 28px;
-    }
-    .TechChallenge p{
-        width:746px;
-    }
-    .gallery-item p {
-        font-size: 20px;
-        font-weight: 400;
-        margin-top: -25px;
-        width: 245px;
-        padding-left: 2px;
-    }
-    .gallery-item {
-        background-color: #4A455C;
-        min-width: 249px;
-        margin-right: 5px;
-        height: 800px;
-    }
-    .gallery-item img {
-        max-width: 247px;
-        min-height: 325.5px;
-        padding:0px;
-    }
-    aside .gallery-item {
-        background-color: #7C7D98;
-        min-height: 1327px;
-        min-width: 247px;
-    }
-    .gallery-item2 {
-        width: 50vw;
-        height: 105vh;
-        margin-left: -10px;
-    }
-    .gallery-cont2 {
-        float: left;
-        background-color: #4A455C;
-        max-width: 768px;
-        margin-top: 482px;
-        min-height: 800px;
-    }
-    .gallery-cont2 img {
-        width: 769px;
-        margin-top: 1px;
-    }
-    .gallery-cont2 p {
-        font-size: 20px;
-        font-weight: 400;
-        margin-top: -25px;
-        width: 768px;
-    }
-    .gallery-container {
-        background-color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 1000px;
-        max-height: 855px;
-        padding: 0px;
-    }
-    .relpics {
-        background-color: white;
-        min-height: 1000px;
-        margin-left: -30px;
-        margin-right: 35px;
-        max-width: 233px;
-    }
-    .gallery-item h3, h4, p {
-        padding-left: 12px;
-        font-family: 'Montserrat';
-        width: 215px;
-    }
-    .relpics p {
-        color: #4A455C;
-        font-family: 'Montserrat';
-        max-width: 230px;
-        font-size: 20px;
-        padding-right: 10px;
-        font-weight: 600;
+font-family: 'Catamaran';
+font-size: 18px;
+font-weight: 700;
+margin-right: -70px;
+margin-left: 34px;
     }
 
-    .bottomnav {
-        background-color: #D64C31;
-        height: 500px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 450px;
+.ContactInfo{
+ 
+    float: left;
+width: 20%;
+padding-bottom: 100px;
+padding-left: 175px;}
+
+.ContactInfo a,p {
+    font-family:'Catamaran';
+    font-size:20px;
+    color:white;
+}
+
+.SubmitInfo{
+    Float:left;
+    width:80%;
+}
+.SubmitInfo h1{
+    width:40px;
+    padding-left: 500px;
+}
+.SubmitInfo p{
+     
+    padding-left: 500px;
+}
+.SubmitInfo .Subs .input{
+    padding-left:500px;
+    margin-top:75px;
+
+}
+ 
+ 
+    .Info h1{
+        font-size:20px;
+         
+        margin: 40px 0 34px 0;
+    text-transform: none;
+    font-size: 20px;
+    margin: 32px 445px 33px 0;
+    text-transform: none;
+}
+  
+.Info p{
+ margin-right: 210px;
+ 
+}
+
+.Info input button{
+    float:right;
+}
+input{
+     
+    min-width: 500px;
+    min-height: 45px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+button.orangesub{
+    background-color:orange;
+    max-width:30px;
+    color:#1a2022;
+    max-height:10px;
+    font-weight:600;
+    font-size:13px;
+}
+
+
+ 
+.ContactInfoh1{
+    margin-left:170px;
+}
+.ContactInfo h3 p{
+    margin-left:70px;
+}
+.COntactInfo p{
+    margin-left:20px;
+}
+
+
+
+
+footer{background-color:#1a2022
+            
     }
-    .bottomnav img {
-        width: 120px;
-        height: 50px;
-        padding-left: 50px;
-        margin-top: 27px;
-    }
-    .bottomnav p{
-        
-            color: white;
-            font-family: 'Montserrat';
-            font-size: 20px;
-            font-weight: 400;
-            width: 122px;
-            margin-right: 262px;
-            margin-top: 20px;
-        }
-        .bottomnav h5 {
-            color: white;
-            font-family: 'Montserrat';
-            font-size: 45px;
-            font-weight: 500;
-            padding-left: 1px;
-            margin-top: 125px;
-        }
-        .Info {
-            background-color: #4A455C;
-            max-width: 305px;
-            position: absolute;
-            margin-left: 450px;
-            margin-top: -53px;
-            border-top: 300px;
-            height: 553px;
-        }
-        .footer p{
-            color:black;
-           margin-top: 20px;
-            margin-right:100px;
-            font-weight:700;
-        }
-        .Subs input {
-            font-family: 'Montserrat';
-            font-size: 22px;
-            font-weight: 500;
-            border-radius: 0.2rem;
-            min-width: 220px;
-            margin-left: 5px;
-            min-height: 54px;
-            margin-top: 25px;
-        }
-        .Subs input {
-            max-width: 295px;}
-        .Subs p.logos {
-            font-size: 41px;
-            padding-left: 60px;
-            padding-right: 151px;
-            margin-top: 90px;
-        }
-        .newsletter {
-            color: white;
-            font-family: 'Montserrat';
-            font-size: 30px;
-            padding-left: 15px;
-            font-weight: 900;
-            margin-top: 85px;
-            margin-bottom: -17px;
-            width: 272px;
-        }
-        .Subs p.logos {
-            font-size: 41px;
-            padding-left: 60px;
-            padding-right: 151px;
-            margin-top: -10px;
-        }
-        .bottbutt ul li a {
-            color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            font-family: 'Montserrat';
-            font-size: 22px;
-            font-weight: 500;
-            padding-right: 52px;
-            margin-right: 1014px;
-            margin-left: -1108px;
-            margin-top: 530px;
-        }
-        .footer p {
-            color: white;
-            margin-top: 20px;
-            margin-right: -68px;
-            font-weight: 700;
-            margin-left: -1078px;
-            margin-top: 203px;
-        }
+    footer p{color:white;
+    text-align:center;}
+
+
+    @media (max-width: 480px) {
     
-}   */
+        header{
+    background-image: url(./assets/image-1-mobile_2x.jpg);
+    /* min-height: 100vh; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    padding: 0px 0;
+}
+header nav ul li{display:none}
+
+header nav{
+    
+    float:none;
+}
+header h1{
+    text-align: center;
+font-size: 90px;
+margin-left: 38px;
+}
+header p{
+    display:none;
+}
+.headerNavMob{
+display:block;
+     
+}
+header nav i.fas{
+    display: block;
+float: right;
+font-size: 38px;
+margin-top: -235px;
+ 
+}
+
+.AboutUsDesc h2{
+        width: 160%;
+    height: 100%;
+    margin-top: -10px;
+    font-size: 54px;
+    text-align: center;
+}
+.AboutUsDesc p{
+   
+    width: 168%;
+    height: 100%;
+    margin-top: 50px;
+    color: black;
+    font-size: 33px;
+}
+.AboutUsImg img {
+    
+    width: 100vw;
+    height: 70vh;
+    margin-top: -100px;
+}
+ 
+.AboutUsDesc button {
+    width: 99%;
+    height: 100%;
+    margin-top: 30px;
+    font-size: 43px;
+    text-align: center;
+    margin-bottom: 67px;
+}
 
 
+.MissionDesc h2{
+        width: 160%;
+    height: 100%;
+    margin-top: -10px;
+    font-size: 100px;
+    text-align: center;
+}
+.MissionDesc p{
+   
+    width: 168%;
+    height: 100%;
+    margin-top: 50px;
+    color: black;
+    font-size: 30px;
+}
+.MissionImg img {
+    
+    width: 100vw;
+    height: 70vh;
+    margin-top: -100px;
+}
+ 
+.Mission button {
+    width: 194%;
+    height: 100%;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 18px;
+    margin-right: -52px;
+    margin-bottom: 85px;
+}
+
+
+.MeetDesc h2{
+            width: 16%;
+    height: 100%;
+    margin-top: 9px;
+    font-size: 100px;
+    text-align: center;
+    margin-right: 461px;
+    margin-left: -40px;
+}
+
+    .MeetDesc p{
+   
+  
+    width: 39%;
+    height: 100%;
+    margin-top: 10px;
+    color: black;
+    font-size: 30px;
+    margin-right: 568px;
+}
+
+.MeetImg img {
+    
+    
+    min-width: 40vh;
+    height: 230%;
+    margin-top: -100px;
+    margin-left: -23px;
+}
+ 
+.Meet button {
+   
+    min-width: 200px;
+    min-height: 45px;
+    background-color: black;
+    font-family: 'Catamaran';
+    color: orange;
+    font-size: 55px;
+    float: right;
+    margin-right: -174px;
+    margin-bottom: 40px;
+    margin-top: -55px;
+}
+ 
+
+
+
+
+.Gram .gallery img {
+    float: left;
+    width: 49%;
+    padding: 7px;
+    margin-right: -9px;
+}
+.Gram h2 {
+    color: black;
+    font-family: 'Pacifico';
+    font-size: 77px;
+    text-align: center;
+    float: left;
+    margin: 65px;
+
+
+    }
+.SubmitInfo .Subs input{
+  
+    min-width: 394px;
+    min-height: 45px;
+    margin-left:auto;
+    margin-top: 20px;
+}
+}
